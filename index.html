@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shaina Jane Tanguan — Web Developer & Data Analyst</title>
+  <meta name="description" content="Web Developer & Data Analyst based in Cagayan de Oro, Philippines."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+<div class="toast" id="toast">✓ Feedback submitted, thank you!</div>
+
+<!-- ═══ NAV ═══ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <span class="nav-logo">SJ Dev<span>.</span></span>
+    <div class="nav-right">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Work</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <button class="nav-theme" id="themeBtn" onclick="toggleTheme()" aria-label="Toggle theme">
+        <span id="themeIcon">🌙</span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+<div class="page">
+
+  <!-- ═══ PROFILE ═══ -->
+  <div class="profile reveal" id="about">
+    <div class="profile-top">
+      <div>
+        <h1 class="profile-name">Shaina Jane Tanguan</h1>
+        <p class="profile-location">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Escalante City, Philippines · (UTC +08:00)
+        </p>
+        <div class="profile-roles">
+          <span class="role-tag">Web Developer</span>
+          <span class="role-tag">Data Analyst</span>
+          <span class="available-badge"><span class="available-dot"></span>Available for Opportunities</span>
+        </div>
+        <div class="profile-actions">
+          <a href="mailto:shaynatangguan8@gmail.com" class="btn btn-solid">✉ Send Email</a>
+          <a href="https://www.linkedin.com/in/shaina-jane-tanguan-4b3491361/" target="_blank" class="btn btn-ghost">LinkedIn</a>
+          <a href="https://github.com/shainajaneee" target="_blank" class="btn btn-ghost">GitHub</a>
+        </div>
+      </div>
+      <img src="pictures/myphoto.jpg" alt="Shaina Jane Tanguan" class="profile-photo"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="profile-photo-placeholder" style="display:none">👩‍💻</div>
+    </div>
+
+    <p class="profile-bio">
+      I am a web developer and analyst committed to the intersection of software engineering and data-driven insight. I build web-based systems that serve as powerful tools for problem-solving, focusing on scalability and structural integrity. My goal is to create digital environments where clean architecture meets actionable intelligence, providing users with tools that are as reliable as they are insightful.
+    </p>
+
+    <div class="profile-stats">
+      <div class="stat"><span class="stat-n">3+</span><span class="stat-l">Projects</span></div>
+      <div class="stat"><span class="stat-n">5+</span><span class="stat-l">Technologies</span></div>
+      <div class="stat"><span class="stat-n">3</span><span class="stat-l">Certifications</span></div>
+    </div>
+  </div>
+
+  <!-- ═══ EDUCATION / TIMELINE ═══ -->
+  <section class="section reveal">
+    <div class="section-label">Education & Background</div>
+    <div class="timeline">
+      <div class="tl-item">
+        <span class="tl-year">Present</span>
+        <div><div class="tl-title">BS Information Technology</div><div class="tl-where">State University of Northern Negros</div></div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-year">Present</span>
+        <div><div class="tl-title">Architecting Systems & Data</div><div class="tl-where">Currently mastering <strong>Laravel & Tailwind CSS</strong> to build scalable web ecosystems. 
+            Expanding into <strong>Data Analytics</strong> to bridge the gap between software development 
+            and actionable business insights.</div></div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-year">2025 - 3rd year</span>
+        <div><div class="tl-title">The Logic & Automation Phase</div><div class="tl-where">Shifted focus toward complex application logic. Developed projects using <strong>Java and JavaScript</strong>, 
+            and implemented automated communication systems using <strong>PHPMailer</strong> and <strong>Python</strong>.
+          </p></div></div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-year">2024 - 2nd Year</span>
+        <div><div class="tl-title">Laying the Foundation</div><div class="tl-where">Deep dive into <strong>PHP, HTML5, and CSS3</strong>. Secured professional certifications 
+            in Responsive Web Design, Google Analytics, and HTML Essentials.</div></div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-year">2023 - 1st Year</span>
+        <div><div class="tl-title">Hello World!</div><div class="tl-where">The first line of code that started it all. Discovered a passion for problem-solving through digital creation.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ TECH STACK ═══ -->
+  <section class="section reveal">
+    <div class="section-label">Tech Stack</div>
+    <div class="stack-group">
+      <div class="stack-group-label">Frontend</div>
+      <div class="stack-chips">
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Tailwind CSS</span>
+        <span class="chip">Bootstrap</span>
+      </div>
+    </div>
+    <div class="stack-group">
+      <div class="stack-group-label">Backend</div>
+      <div class="stack-chips">
+        <span class="chip">PHP</span>
+        <span class="chip">Laravel</span>
+        <span class="chip">PHP OOP</span>
+        <span class="chip">PHPMailer</span>
+        <span class="chip">MySQL</span>
+        <span class="chip">PostgresSQL</span>
+      </div>
+    </div>
+    <div class="stack-group">
+      <div class="stack-group-label">Data & Tools</div>
+      <div class="stack-chips">
+        <span class="chip">Python</span>
+        <span class="chip">Pandas</span>
+        <span class="chip">Matplotlib</span>
+        <span class="chip">Excel</span>
+        <span class="chip">Power BI</span>
+        <span class="chip">Git</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROJECTS ═══ -->
+  <section class="section reveal" id="projects">
+    <div class="section-label">Recent Projects</div>
+    <div class="card-grid">
+
+      <div class="project-card" onclick="window.open('https://github.com/shainajaneee/barangay-docs', '_blank')">
+        <div class="project-top">
+          <span class="project-name">USWAG BALINTAWAK — Barangay Document System</span>
+          <span class="project-arrow">↗</span>
+        </div>
+        
+        <p class="project-desc">
+          A centralized administrative engine designed to digitize and track the lifecycle 
+          of official local certifications. It replaces manual filing with a secure digital 
+          workflow, providing real-time status updates for residents and staff.
+        </p>
+
+        <p class="project-impact">↑ Optimized request-to-issuance turnaround for official documents</p>
+        
+        <div class="mini-chips">
+          <span class="mini-chip">Laravel / PHP</span>
+          <span class="mini-chip">MySQL</span>
+          <span class="mini-chip">Tailwind CSS</span>
+          <span class="mini-chip">Alpine JS</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-name">Integretech</span>
+          <span class="project-arrow">↗</span>
+        </div>
+        <p class="project-desc">A full-stack healthcare management system optimizing patient data handling and clinic workflows — reducing manual entry and improving record accuracy for clinical staff.</p>
+        <p class="project-impact">↑ Streamlined patient data operations across multiple clinic departments</p>
+        <div class="mini-chips">
+          <span class="mini-chip">PHP</span>
+          <span class="mini-chip">MySQL</span>
+          <span class="mini-chip">JavaScript</span>
+          <span class="mini-chip">Bootstrap</span>
+          <span class="mini-chip">Healthcare</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-name">Peer Learning Hub</span>
+          <span class="project-arrow">↗</span>
+        </div>
+        <p class="project-desc">Collaborative web platform connecting students for project-based knowledge sharing, with automated email notifications via PHPMailer, user authentication, and a resource-sharing system.</p>
+        <p class="project-impact">↑ Enabled peer collaboration with automated onboarding email flow</p>
+        <div class="mini-chips">
+          <span class="mini-chip">PHP</span>
+          <span class="mini-chip">PHPMailer</span>
+          <span class="mini-chip">MySQL</span>
+          <span class="mini-chip">Tailwind CSS</span>
+          <span class="mini-chip">EdTech</span>
+        </div>
+      </div>
+
+      <div class="project-card" onclick="window.open('https://github.com/shainajaneee/Product-Management', '_blank')">
+        <div class="project-top">
+          <span class="project-name">Product Management System</span>
+          <span class="project-arrow">↗</span>
+        </div>
+        <p class="project-desc">Object-oriented PHP inventory system with categorized modules, role-based access control, and relational database architecture — AdminLTE for a clean admin interface.</p>
+        <p class="project-impact">↑ OOP architecture enables clean scalability and long-term maintainability</p>
+        <div class="mini-chips">
+          <span class="mini-chip">PHP OOP</span>
+          <span class="mini-chip">AdminLTE</span>
+          <span class="mini-chip">MySQL</span>
+          <span class="mini-chip">Inventory</span>
+        </div>
+      </div>
+      <div class="project-card" onclick="window.open('https://guessthenumbersq.netlify.app', '_blank')">
+  <div class="project-top">
+    <span class="project-name">Guess The Number — Interactive Game</span>
+    <span class="project-arrow">↗</span>
+  </div>
+  
+  <p class="project-desc">
+    A logic-based interactive application developed for a campus tech event. 
+    It features real-time feedback, state management for gameplay, and a 
+    persistent leaderboard using browser local storage.
+  </p>
+
+  <p class="project-impact">↑ Project for CICTE Business Week 2025</p>
+  
+  <div class="mini-chips">
+    <span class="mini-chip">HTML</span>
+    <span class="mini-chip">Tailwind CSS</span>
+    <span class="mini-chip">JavaScript/span>
+  </div>
+</div>
+    </div>
+    <div class="project-card" onclick="window.open('https://pamasko-randomizer.netlify.app/', '_blank')">
+  <div class="project-top">
+    <span class="project-name">Aguinaldo Gift Portal — Client Utility</span>
+    <span class="project-arrow">↗</span>
+  </div>
+  
+  <p class="project-desc">
+    A seasonal micro-site built for holiday client engagement. Features 
+    dynamic content generation, browser-based file downloads, and 
+    interactive UI elements (snow effects/dark mode).
+  </p>
+
+  <p class="project-impact">↑ Successfully used for 2025 Holiday Client Distribution</p>
+  
+  <div class="mini-chips">
+    <span class="mini-chip">Vanilla JS</span>
+    <span class="mini-chip">DOM Manipulation</span>
+    <span class="mini-chip">Tailwind CSS</span>
+    <span class="mini-chip">Blob API</span>
+  </div>
+</div>
+  </section>
+
+  <!-- ═══ CERTIFICATIONS ═══ -->
+  <section class="section reveal">
+    <div class="section-label">Recent Certifications</div>
+    <div class="card-grid">
+      <div class="cert-card">
+        <div class="cert-icon">🎓</div>
+        <div>
+          <div class="cert-name">Responsive Web Design</div>
+          <div class="cert-issuer">freeCodeCamp · 2024</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">📊</div>
+        <div>
+          <div class="cert-name">Google Analytics Certified</div>
+          <div class="cert-issuer">Google · 2024</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">💻</div>
+        <div>
+          <div class="cert-name">HTML Essentials</div>
+          <div class="cert-issuer">Cisco Networking Academy · 2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ RECOMMENDATIONS ═══ -->
+  <section class="section reveal">
+    <div class="section-label">Recommendations</div>
+    <div id="recBox" class="rec-card">
+      <p class="rec-text" id="recText">"Shaina consistently shows dedication in her work and creates projects with real functionality and attention to detail."</p>
+      <div>
+        <div class="rec-author-name" id="recName">Mentor</div>
+      </div>
+    </div>
+    <div class="rec-nav">
+      <button class="rec-btn" onclick="prevRec()">←</button>
+      <button class="rec-btn" onclick="nextRec()">→</button>
+      <div class="rec-dots" id="recDots"></div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section class="section reveal" id="contact">
+    <div class="section-label">Contact</div>
+    <div class="contact-links">
+      <a href="mailto:shaynatangguan8@gmail.com" class="contact-link">
+        <div><div class="contact-link-label">Email</div><div class="contact-link-val">shaynatangguan8@gmail.com</div></div>
+        <span class="contact-link-arr">↗</span>
+      </a>
+      <a href="https://github.com/shainajaneee" target="_blank" class="contact-link">
+        <div><div class="contact-link-label">GitHub</div><div class="contact-link-val">github.com/shainajaneee</div></div>
+        <span class="contact-link-arr">↗</span>
+      </a>
+      <a href="https://www.linkedin.com/in/shaina-jane-tanguan-4b3491361/" target="_blank" class="contact-link">
+        <div><div class="contact-link-label">LinkedIn</div><div class="contact-link-val">shaina-jane-tanguan-4b3491361</div></div>
+        <span class="contact-link-arr">↗</span>
+      </a>
+    </div>
+
+    <!-- Leave Feedback -->
+    <div class="feedback-form">
+      <h4>Leave a Recommendation</h4>
+      <p>Worked with me or know my work? I'd love to hear from you.</p>
+      <form onsubmit="submitFeedback(event)">
+        <div class="form-row-2">
+          <div class="form-field"><label>Name *</label><input type="text" id="fName" placeholder="Your name" required></div>
+          <div class="form-field"><label>Role / Company</label><input type="text" id="fRole" placeholder="e.g. Senior Dev at XYZ"></div>
+        </div>
+        <div class="form-field"><label>Your feedback *</label><textarea id="fText" placeholder="Share your experience…" required></textarea></div>
+        <button type="submit" class="btn-submit">Submit Recommendation →</button>
+      </form>
+    </div>
+  </section>
+
+</div><!-- end page -->
+</main>
+
+<footer>
+  <div class="footer">
+    <span class="footer-copy">© 2026 Shaina Jane Tanguan. All rights reserved.</span>
+    <button class="footer-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
