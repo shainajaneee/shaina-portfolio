@@ -3,7 +3,7 @@
 Professional portfolio showcasing the intersection of **Full-Stack Web Development** and **Data-Driven Insights**. This repository contains the source code for my personal branding site, built with a focus on performance, scalability, and modern UI/UX.
 
 ## 🚀 Live Demo
-**[View My Portfolio Live on Vercel](https://shaina-portfolio.vercel.app)** *(Replace this with your actual Vercel link once deployed)*
+**[View My Portfolio Live on Vercel](https://shaina-portfolio.vercel.app)**
 
 ---
 
